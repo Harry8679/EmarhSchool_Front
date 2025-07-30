@@ -24,23 +24,23 @@ export default function Page() {
 
                                 <div className="mb-4">
                                     <label className="font-medium" htmlFor="LoginPassword">Mot de passe:</label>
-                                    <input id="LoginPassword" type="password" className="w-full py-2 px-3 border border-slate-100 dark:border-slate-800 focus:border-violet-600/30 dark:focus:border-violet-600/30 bg-transparent focus:outline-none rounded-md h-10 mt-3" placeholder="Password:"/>
+                                    <input id="LoginPassword" type="password" className="w-full py-2 px-3 border border-slate-100 dark:border-slate-800 focus:border-violet-600/30 dark:focus:border-violet-600/30 bg-transparent focus:outline-none rounded-md h-10 mt-3" placeholder="Entrez votre mot de passe"/>
                                 </div>
 
                                 <div className="flex justify-between mb-4">
                                     <div className="flex items-center mb-0">
                                         <input className="form-checkbox rounded border-gray-200 dark:border-gray-800 text-violet-600 focus:border-violet-300 focus:ring focus:ring-offset-0 focus:ring-violet-200 focus:ring-opacity-50 me-2" type="checkbox" value="" id="RememberMe"/>
-                                        <label className="form-checkbox-label text-slate-400" htmlFor="RememberMe">Remember me</label>
+                                        <label className="form-checkbox-label text-slate-400" htmlFor="RememberMe">Se souvenir de moi</label>
                                     </div>
                                     <p className="text-slate-400 mb-0"><Link href="/forgot-password" className="text-slate-400">Mot de passe oublié ?</Link></p>
                                 </div>
 
                                 <div className="mb-4">
-                                    <Link href="" className="h-10 px-5 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-violet-600 text-white w-full">Login / Sign in</Link>
+                                    <Link href="" className="h-10 px-5 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-violet-600 text-white w-full">Se connecter</Link>
                                 </div>
 
                                 <div className="text-center">
-                                    <span className="text-slate-400 me-2">Don't have an account ?</span> <Link href="/signup" className="text-black dark:text-white font-bold">Sign Up</Link>
+                                    <span className="text-slate-400 me-2">Vous n'avez pas de compte ?</span> <Link href="/signup" className="text-black dark:text-white font-bold">Inscription</Link>
                                 </div>
                             </div>
                         </form>
