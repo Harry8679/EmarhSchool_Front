@@ -49,7 +49,7 @@ export default function Page() {
                             </div>
 
                             <div className="text-center">
-                                <span className="text-slate-400 me-2">Already have an account ? </span> <Link href="/login" className="text-black dark:text-white font-bold">Connexion</Link>
+                                <span className="text-slate-400 me-2">Avez-vous déjà un compte ? </span> <Link href="/login" className="text-black dark:text-white font-bold">Connexion</Link>
                             </div>
                         </div>
                     </form>
