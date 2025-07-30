@@ -34,7 +34,7 @@ export default function Page() {
 
                             <div className="mb-4">
                                 <label className="font-semibold" htmlFor="LoginPassword">Mot de passe :</label>
-                                <input id="LoginPassword" type="password" className="w-full py-2 px-3 border border-slate-100 dark:border-slate-800 focus:border-violet-600/30 dark:focus:border-violet-600/30 bg-transparent focus:outline-none rounded-md h-10 mt-3" placeholder="Password:"/>
+                                <input id="LoginPassword" type="password" className="w-full py-2 px-3 border border-slate-100 dark:border-slate-800 focus:border-violet-600/30 dark:focus:border-violet-600/30 bg-transparent focus:outline-none rounded-md h-10 mt-3" placeholder="Entrez votre mot de passe"/>
                             </div>
 
                             <div className="mb-4">
