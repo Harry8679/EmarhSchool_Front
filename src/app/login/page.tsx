@@ -14,7 +14,7 @@ export default function Page() {
                 <div className="flex">
                     <div className="max-w-[400px] w-full p-6 bg-white dark:bg-slate-900 shadow-md shadow-slate-100 dark:shadow-slate-800 rounded-md">
                         <Link href="/"><Image src='/images/logo-icon-64.png' width={64} height={64} alt=""/></Link>
-                        <h5 className="my-6 text-xl font-semibold">Login</h5>
+                        <h5 className="my-6 text-xl font-semibold">Connexion</h5>
                         <form className="text-start">
                             <div className="grid grid-cols-1">
                                 <div className="mb-4">
