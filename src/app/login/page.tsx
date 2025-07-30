@@ -18,12 +18,12 @@ export default function Page() {
                         <form className="text-start">
                             <div className="grid grid-cols-1">
                                 <div className="mb-4">
-                                    <label className="font-medium" htmlFor="LoginEmail">Email Address:</label>
+                                    <label className="font-medium" htmlFor="LoginEmail">Email :</label>
                                     <input id="LoginEmail" type="email" className="w-full py-2 px-3 border border-slate-100 dark:border-slate-800 focus:border-violet-600/30 dark:focus:border-violet-600/30 bg-transparent focus:outline-none rounded-md h-10 mt-3" placeholder="name@example.com"/>
                                 </div>
 
                                 <div className="mb-4">
-                                    <label className="font-medium" htmlFor="LoginPassword">Password:</label>
+                                    <label className="font-medium" htmlFor="LoginPassword">Mot de passe:</label>
                                     <input id="LoginPassword" type="password" className="w-full py-2 px-3 border border-slate-100 dark:border-slate-800 focus:border-violet-600/30 dark:focus:border-violet-600/30 bg-transparent focus:outline-none rounded-md h-10 mt-3" placeholder="Password:"/>
                                 </div>
 
@@ -32,7 +32,7 @@ export default function Page() {
                                         <input className="form-checkbox rounded border-gray-200 dark:border-gray-800 text-violet-600 focus:border-violet-300 focus:ring focus:ring-offset-0 focus:ring-violet-200 focus:ring-opacity-50 me-2" type="checkbox" value="" id="RememberMe"/>
                                         <label className="form-checkbox-label text-slate-400" htmlFor="RememberMe">Remember me</label>
                                     </div>
-                                    <p className="text-slate-400 mb-0"><Link href="/forgot-password" className="text-slate-400">Forgot password ?</Link></p>
+                                    <p className="text-slate-400 mb-0"><Link href="/forgot-password" className="text-slate-400">Mot de passe oublié ?</Link></p>
                                 </div>
 
                                 <div className="mb-4">
